@@ -1,0 +1,20 @@
+<?php
+/** @var \AriyaInfoTech\Chatgptaicontent\Block\Adminhtml\Product\Helper $block */
+/** @var \Magento\Framework\Escaper $escaper */
+?>
+
+<div data-bind="scope: 'ariyainfotech-ai-product-helper'" class="ariyainfotech-ai-product-helper">
+    <!-- ko template: getTemplate() --><!-- /ko -->
+</div>
+<input type="hidden" id="openai_url" name="openai_url" value="<?php echo $block->getUrl('ariyainfotech_chatgptaicontent/generate/index')?>">
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "ariyainfotech-ai-product-helper": <?= /* @noEscape */ $block->getComponentJsonConfig() ?>
+                }
+            }
+        }
+    }
+</script>
