@@ -1,6 +1,6 @@
 <?php
 
-namespace AriyaInfoTech\Chatgptaicontent\Model;
+namespace AriyaInfoTech\AIContentGenerator\Model;
 
 class NormalizerModel
 {

@@ -1,5 +1,5 @@
 <?php
-namespace AriyaInfoTech\Chatgptaicontent\Api;
+namespace AriyaInfoTech\AIContentGenerator\Api;
 
 use Psr\Http\Message\StreamInterface;
 

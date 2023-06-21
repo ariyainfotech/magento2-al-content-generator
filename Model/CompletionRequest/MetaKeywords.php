@@ -1,9 +1,9 @@
 <?php
 
 
-namespace AriyaInfoTech\Chatgptaicontent\Model\CompletionRequest;
+namespace AriyaInfoTech\AIContentGenerator\Model\CompletionRequest;
 
-use AriyaInfoTech\Chatgptaicontent\Api\RequestCompletionInterface;
+use AriyaInfoTech\AIContentGenerator\Api\RequestCompletionInterface;
 
 class MetaKeywords extends AbstractCompletion implements RequestCompletionInterface
 {
@@ -17,7 +17,7 @@ class MetaKeywords extends AbstractCompletion implements RequestCompletionInterf
             'container' => 'product_form.product_form.search-engine-optimization.container_meta_keyword',
             'prompt_from' => 'product_form.product_form.content.container_description.description',
             'target_field' => 'product_form.product_form.search-engine-optimization.container_meta_keyword.meta_keyword',
-            'component' => 'AriyaInfoTech_Chatgptaicontent/js/button',
+            'component' => 'AriyaInfoTech_AIContentGenerator/js/button',
         ];
     }
 

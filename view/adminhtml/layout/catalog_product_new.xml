@@ -3,9 +3,9 @@
     <body>
         <referenceContainer name="page.content">
             <block name="catalog.product.content-ai.helper"
-                   class="AriyaInfoTech\Chatgptaicontent\Block\Adminhtml\Product\Helper"
+                   class="AriyaInfoTech\AIContentGenerator\Block\Adminhtml\Product\Helper"
                    before="page_main_actions"
-                   template="AriyaInfoTech_Chatgptaicontent::product/helper.phtml" />
+                   template="AriyaInfoTech_AIContentGenerator::product/helper.phtml" />
         </referenceContainer>
     </body>
 </page>

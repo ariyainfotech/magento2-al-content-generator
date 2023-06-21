@@ -35,7 +35,7 @@ define([
         initializeModalContent: function (parentName, groupConfig) {
             if (!Registry.has(parentName + '.content')) {
                 const modalContentTemplate = {
-                    component: groupConfig.modal ?? 'AriyaInfoTech_Chatgptaicontent/js/modal/default',
+                    component: groupConfig.modal ?? 'AriyaInfoTech_AIContentGenerator/js/modal/default',
                     parent: parentName,
                     name: 'content'
                 };

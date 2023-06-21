@@ -10,8 +10,8 @@ define([
             title: 'Content AI',
             error: '',
             displayArea: '',
-            template: 'AriyaInfoTech_Chatgptaicontent/button',
-            elementTmpl: 'AriyaInfoTech_Chatgptaicontent/button',
+            template: 'AriyaInfoTech_AIContentGenerator/button',
+            elementTmpl: 'AriyaInfoTech_AIContentGenerator/button',
             modalName: null,
             actions: [{
                 targetName: '${ $.name }',

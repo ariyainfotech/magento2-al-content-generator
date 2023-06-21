@@ -1,8 +1,8 @@
 <?php
 
-namespace AriyaInfoTech\Chatgptaicontent\Model\CompletionRequest;
+namespace AriyaInfoTech\AIContentGenerator\Model\CompletionRequest;
 
-use AriyaInfoTech\Chatgptaicontent\Api\RequestCompletionInterface;
+use AriyaInfoTech\AIContentGenerator\Api\RequestCompletionInterface;
 
 class MetaTitle extends AbstractCompletion implements RequestCompletionInterface
 {
@@ -16,7 +16,7 @@ class MetaTitle extends AbstractCompletion implements RequestCompletionInterface
             'container' => 'product_form.product_form.search-engine-optimization.container_meta_title',
             'prompt_from' => 'product_form.product_form.content.container_description.description',
             'target_field' => 'product_form.product_form.search-engine-optimization.container_meta_title.meta_title',
-            'component' => 'AriyaInfoTech_Chatgptaicontent/js/button',
+            'component' => 'AriyaInfoTech_AIContentGenerator/js/button',
         ];
     }
 

@@ -4,9 +4,9 @@
         <resources>
             <resource id="Magento_Backend::admin">
                 <resource id="Magento_Backend::system">
-                    <resource id="AriyaInfoTech_Chatgptaicontent::ariyainfotech_chatgptaicontent" title="AriyaInfoTech AI" translate="title" sortOrder="0">
-                        <resource id="AriyaInfoTech_Chatgptaicontent::actions" title="Actions" translate="title">
-                            <resource id="AriyaInfoTech_Chatgptaicontent::generate" title="Generate text" translate="title"/>
+                    <resource id="AriyaInfoTech_AIContentGenerator::ariyainfotech_aicontentgenerator" title="AriyaInfoTech AI" translate="title" sortOrder="0">
+                        <resource id="AriyaInfoTech_AIContentGenerator::actions" title="Actions" translate="title">
+                            <resource id="AriyaInfoTech_AIContentGenerator::generate" title="Generate text" translate="title"/>
                         </resource>
                     </resource>
                 </resource>

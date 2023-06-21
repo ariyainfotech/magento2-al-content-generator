@@ -1,14 +1,14 @@
 <?php
 
-namespace AriyaInfoTech\Chatgptaicontent\Controller\Adminhtml\Generate;
+namespace AriyaInfoTech\AIContentGenerator\Controller\Adminhtml\Generate;
 
-use AriyaInfoTech\Chatgptaicontent\Model\OpenAI\OpenExceptionAi;
+use AriyaInfoTech\AIContentGenerator\Model\OpenAI\OpenExceptionAi;
 use InvalidArgumentException;
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
 use Magento\Framework\App\Action\HttpPostActionInterface;
 use Magento\Framework\Controller\Result\JsonFactory;
-use AriyaInfoTech\Chatgptaicontent\Model\ConfigCompletion;
+use AriyaInfoTech\AIContentGenerator\Model\ConfigCompletion;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Catalog\Api\ProductRepositoryInterface;
 use Magento\Framework\App\RequestInterface;
@@ -16,7 +16,7 @@ use Magento\Framework\App\RequestInterface;
 
 class Index extends Action implements HttpPostActionInterface
 {
-    public const ADMIN_RESOURCE = 'AriyaInfoTech_Chatgptaicontent::generate';
+    public const ADMIN_RESOURCE = 'AriyaInfoTech_AIContentGenerator::generate';
 
     private JsonFactory $jsonFactory;
     private ConfigCompletion $ConfigCompletion;
@@ -74,6 +74,6 @@ class Index extends Action implements HttpPostActionInterface
      */
     protected function _isAllowed()
     {
-        return $this->_authorization->isAllowed('AriyaInfoTech_Chatgptaicontent::generate');
+        return $this->_authorization->isAllowed('AriyaInfoTech_AIContentGenerator::generate');
     }
 }

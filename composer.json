@@ -1,6 +1,6 @@
 {
-    "name": "ariyainfotech/magento-2-chatgpt-ai-content-generator",
-    "description": "Magento 2 ChatGPT AI Content Generator",
+    "name": "ariyainfotech/magento-2-ai-content-generator",
+    "description": "Magento 2 AI Content Generator",
     "require": {
         "php": "~5.5.0|~5.6.0|^7.0|^8.1",
         "ariyainfotech/module-base": "1.*"
@@ -23,7 +23,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "AriyaInfoTech\\Chatgptaicontent\\": ""
+            "AriyaInfoTech\\AIContentGenerator\\": ""
         }
     }
 }

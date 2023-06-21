@@ -1,7 +1,7 @@
 <?php
-namespace AriyaInfoTech\Chatgptaicontent\Ui;
+namespace AriyaInfoTech\AIContentGenerator\Ui;
 
-use AriyaInfoTech\Chatgptaicontent\Model\ConfigCompletion;
+use AriyaInfoTech\AIContentGenerator\Model\ConfigCompletion;
 use Magento\Ui\Component\Container;
 
 class Generator extends Container
@@ -18,8 +18,8 @@ class Generator extends Container
             $ConfigCompletion->getConfig(),
             [
                 'settings' => [
-                    'serviceUrl' => $this->context->getUrl('ariyainfotech_chatgptaicontent/generate'),
-                    'validationUrl' => $this->context->getUrl('ariyainfotech_chatgptaicontent/validate'),
+                    'serviceUrl' => $this->context->getUrl('ariyainfotech_aicontentgenerator/generate'),
+                    'validationUrl' => $this->context->getUrl('ariyainfotech_aicontentgenerator/validate'),
                 ]
             ]
         );

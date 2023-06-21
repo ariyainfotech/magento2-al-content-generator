@@ -1,8 +1,8 @@
 <?php
 
-namespace AriyaInfoTech\Chatgptaicontent\Model;
+namespace AriyaInfoTech\AIContentGenerator\Model;
 
-use AriyaInfoTech\Chatgptaicontent\Api\RequestCompletionInterface;
+use AriyaInfoTech\AIContentGenerator\Api\RequestCompletionInterface;
 use Magento\Framework\App\RequestInterface;
 
 class ConfigCompletion

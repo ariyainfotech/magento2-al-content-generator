@@ -1,10 +1,10 @@
 <?php
-namespace AriyaInfoTech\Chatgptaicontent\Block\Adminhtml\Product;
+namespace AriyaInfoTech\AIContentGenerator\Block\Adminhtml\Product;
 
 use Magento\Catalog\Model\Locator\LocatorInterface;
 use Magento\Framework\View\Element\Template;
 use Magento\Store\Api\StoreRepositoryInterface;
-use AriyaInfoTech\Chatgptaicontent\Model\Config;
+use AriyaInfoTech\AIContentGenerator\Model\Config;
 use Magento\Framework\Serialize\Serializer\Json;
 
 class Helper extends Template
@@ -32,8 +32,8 @@ class Helper extends Template
     public function getComponentJsonConfig(): string
     {
         $config = [
-            // 'component' => 'AriyaInfoTech_Chatgptaicontent/js/view/helper',
-            'serviceUrl' => $this->getUrl('AriyaInfoTech_Chatgptaicontent/helper/validate'),
+            // 'component' => 'AriyaInfoTech_AIContentGenerator/js/view/helper',
+            'serviceUrl' => $this->getUrl('AriyaInfoTech_AIContentGenerator/helper/validate'),
             'sku' => $this->locator->getProduct()->getSku(),
             'storeId' => $this->locator->getStore()->getId(),
             'stores' => $this->getStores()

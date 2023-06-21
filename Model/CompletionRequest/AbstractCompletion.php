@@ -1,17 +1,17 @@
 <?php
 
-namespace AriyaInfoTech\Chatgptaicontent\Model\CompletionRequest;
+namespace AriyaInfoTech\AIContentGenerator\Model\CompletionRequest;
 
-use AriyaInfoTech\Chatgptaicontent\Model\Config;
-use AriyaInfoTech\Chatgptaicontent\Model\OpenAI\ClientApi;
-use AriyaInfoTech\Chatgptaicontent\Model\OpenAI\OpenExceptionAi;
+use AriyaInfoTech\AIContentGenerator\Model\Config;
+use AriyaInfoTech\AIContentGenerator\Model\OpenAI\ClientApi;
+use AriyaInfoTech\AIContentGenerator\Model\OpenAI\OpenExceptionAi;
 use InvalidArgumentException;
 use Laminas\Json\Decoder;
 use Laminas\Json\Json;
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;
-use AriyaInfoTech\Chatgptaicontent\Model\NormalizerModel;
+use AriyaInfoTech\AIContentGenerator\Model\NormalizerModel;
 
 abstract class AbstractCompletion
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace AriyaInfoTech\Chatgptaicontent\Model\OpenAI;
+namespace AriyaInfoTech\AIContentGenerator\Model\OpenAI;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\BadResponseException;

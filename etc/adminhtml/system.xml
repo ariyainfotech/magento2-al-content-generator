@@ -2,14 +2,14 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
-        <section id="ariyainfotech_chatgptaicontent" translate="label" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+        <section id="ariyainfotech_aicontentgenerator" translate="label" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
             <tab>ariyainfotech</tab>
-            <label>ChatGPT AI Content Generator</label>
-            <resource>AriyaInfoTech_Chatgptaicontent::ariyainfotech_chatgptaicontent</resource>
+            <label>AI Content Generator</label>
+            <resource>AriyaInfoTech_AIContentGenerator::ariyainfotech_aicontentgenerator</resource>
             <group id="general" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>General</label>
                 <field id="enabled" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>ChatGPT AI Content Generator</label>
+                    <label>AI Content Generator</label>
                     <source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
                 </field>
             </group>

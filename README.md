@@ -1,6 +1,6 @@
-# Mage2 Module AriyaInfoTech Chatgptaicontent
+# Mage2 Module AriyaInfoTech AIContentGenerator
 
-    ``ariyainfotech/module-chatgptaicontent``
+    ``ariyainfotech/module-aicontentgenerator``
 
  - [Main Functionalities](#markdown-header-main-functionalities)
  - [Installation](#markdown-header-installation)
@@ -18,7 +18,7 @@ Module Developed By Ariya InfoTech
 ### Type 1: Zip file
 
  - Unzip the zip file in `app/code/AriyaInfoTech`
- - Enable the module by running `php bin/magento module:enable AriyaInfoTech_Chatgptaicontent`
+ - Enable the module by running `php bin/magento module:enable AriyaInfoTech_AIContentGenerator`
  - Apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
 
@@ -29,8 +29,8 @@ Module Developed By Ariya InfoTech
     - public repository `packagist.org`
     - public github repository as vcs
  - Add the composer repository to the configuration by running `composer config repositories.repo.magento.com composer https://repo.magento.com/`
- - Install the module composer by running `composer require ariyainfotech/module-chatgptaicontent`
- - enable the module by running `php bin/magento module:enable AriyaInfoTech_Chatgptaicontent`
+ - Install the module composer by running `composer require ariyainfotech/module-aicontentgenerator`
+ - enable the module by running `php bin/magento module:enable AriyaInfoTech_AIContentGenerator`
  - apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace AriyaInfoTech\Chatgptaicontent\Api\Data;
+namespace AriyaInfoTech\AIContentGenerator\Api\Data;
 
 interface AttributeQueryInterface
 {

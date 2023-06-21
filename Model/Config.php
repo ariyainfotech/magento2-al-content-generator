@@ -1,15 +1,15 @@
 <?php
 
-namespace AriyaInfoTech\Chatgptaicontent\Model;
+namespace AriyaInfoTech\AIContentGenerator\Model;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 
 class Config
 {
-    public const XML_PATH_ENABLED = 'ariyainfotech_chatgptaicontent/general/enabled';
-    public const XML_PATH_BASE_URL = 'ariyainfotech_chatgptaicontent/api/base_url';
-    public const XML_PATH_TOKEN = 'ariyainfotech_chatgptaicontent/api/token';
-    public const XML_PATH_STORES = 'ariyainfotech_chatgptaicontent/general/stores';
+    public const XML_PATH_ENABLED = 'ariyainfotech_aicontentgenerator/general/enabled';
+    public const XML_PATH_BASE_URL = 'ariyainfotech_aicontentgenerator/api/base_url';
+    public const XML_PATH_TOKEN = 'ariyainfotech_aicontentgenerator/api/token';
+    public const XML_PATH_STORES = 'ariyainfotech_aicontentgenerator/general/stores';
     private ScopeConfigInterface $scopeConfig;
 
     public function __construct(ScopeConfigInterface $scopeConfig)
